@@ -1,0 +1,18 @@
+server:
+  port: 8280
+#获取服务列表
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@localhost:8260/eureka/
+spring:
+  application:
+    name: zuul
+
+  main:
+    allow-bean-definition-overriding: true
+
+  #zuul:
+  #  routes:
+  #    studentserver: /student/**
+

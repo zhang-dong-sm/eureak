@@ -1,0 +1,29 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          name: root
+#            password: root
+#          uri: file:///H:\Eureka\configcenter\src\main\resources
+  #本地文件系统
+#  profiles:
+#    active: native
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: classpath:/config
+
+  #git远程资源库
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zhang-dong-sm/test
+          search-paths: config_files
+
