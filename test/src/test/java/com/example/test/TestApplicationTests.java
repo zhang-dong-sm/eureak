@@ -178,6 +178,7 @@ class TestApplicationTests {
     @Test
     public void aa1(){
         System.out.println("aaaaa");
+        System.out.println("ss");
     }
 
 }
