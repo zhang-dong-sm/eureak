@@ -175,5 +175,9 @@ class TestApplicationTests {
         Zd zd1 = Zd.builder().id(1).name("ss").date(new Date()).build();
         System.out.println(zd1);
     }
+    @Test
+    public void aa1(){
+        System.out.println("aaaaa");
+    }
 
 }
